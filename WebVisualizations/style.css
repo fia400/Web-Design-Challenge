@@ -1,0 +1,110 @@
+
+body {
+  font-family: Arial;
+  font-size: 1.1em;
+  background-color:lightseagreen;
+}
+
+.navbar-light .navbar-brand {
+  color: black;
+}
+
+ .navbar {
+  background-color: white;
+  width: 100%;
+  padding: 0;
+} 
+
+.navbar-brand {
+  font-family: 'Arial';
+  font-size: 25px;
+  font-weight: bolder;
+  background-color: white;
+  padding: 10px;
+  margin-left: 5%;
+}
+
+.navbar-collapse {
+  position: absolute;
+  right: 5%;
+  font-size: small;
+}
+
+
+.content {
+  width:90%;
+  margin: 20px auto;
+  padding:1em;
+}
+
+.text-left {
+  text-align: left;
+  color: rgb(18, 26, 136);
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+}
+
+.text-center {
+  color: rgb(18, 26, 136);
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+}
+
+.img-thumbnail {
+  width:48%;
+}
+
+.thumbnail {
+  width:40%;
+}
+
+.main-image {      
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    float: left;
+}
+
+.sub-image {      
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  float: left;
+}
+
+.col-md-8 {
+  background-color: white;
+  border : 20px solid #c9cbd1;
+}
+
+.col-sm-12,.col-md-4 {
+  background-color: white;
+  border : 20px solid #c9cbd1;
+}
+
+div.col-sm-12.col-md-12 div.col-lg-6.col-sm-12 img {
+  width: 100%;
+}
+
+ div.col-sm-12.col-md-12 p {
+  color: black;
+  font-size: medium;
+  scroll-snap-align: center;
+} 
+
+.visuals {
+  text-align: center;
+  color: rgb(20, 150, 150);
+  font-family: 'Georgia';
+  font-weight: regular;
+}
+
+hr {
+  height: 12px;
+  border: 0;
+  box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+tr {
+  text-align: center
+}
